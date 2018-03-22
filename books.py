@@ -25,8 +25,8 @@ print(md['average_rating'].describe())
 best = md.sort_values('average_rating',ascending=False).iloc[0]['title']
 worst = md.sort_values('average_rating',ascending=True).iloc[0]['title']
 
-print("Best Rated movie is: {}".format(best))
-print("Worst Rated movie is: {}".format(worst))
+print("Best Rated book is: {}".format(best))
+print("Worst Rated book is: {}".format(worst))
 
 sns.set(style="darkgrid")
 sns.countplot(x="author", data=smd)

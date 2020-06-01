@@ -1,2 +1,2 @@
 # BookRecommender
-Recommends you the best book 
+Recommends you the best book (Learning)
